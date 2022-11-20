@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { BrowserRouter, Link, Route } from "react-router-dom";
 import "./portal.css"
 
 
@@ -15,9 +16,7 @@ const Portal = () =>{
                 </p>
             </div>
             <div className='paymentButton'>
-            <button>
-                Make Payment
-            </button>
+            <Link to="/payment" className="loginBTN"> Make Payment </Link>
             </div>
         </div>
 )

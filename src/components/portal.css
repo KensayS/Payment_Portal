@@ -47,8 +47,9 @@ b{
     transform: translate(-50%, 90%);
 }
 
-button{
+.loginBTN{
     background-color: lightblue; 
+    width: fit-content;
     border: none;
     padding: 3vw 6vh;
     margin-top: 6vh;
