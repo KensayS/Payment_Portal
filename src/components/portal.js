@@ -14,9 +14,11 @@ const Portal = () =>{
                 Date Due:<br></br> 12/1/2022
                 </p>
             </div>
+            <div className='paymentButton'>
             <button>
                 Make Payment
             </button>
+            </div>
         </div>
 )
 }
