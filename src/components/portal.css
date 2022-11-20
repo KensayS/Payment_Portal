@@ -49,8 +49,9 @@ b{
 
 button{
     background-color: lightblue; 
+    font-size:3vh;
     border: none;
-    padding: 3vw 6vh;
+    padding: 2vw 6vh;
     margin-top: 6vh;
     justify-content: center;
     text-align: center;
