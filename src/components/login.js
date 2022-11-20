@@ -1,6 +1,8 @@
 import React from "react"
 import "./login.css"
 import {useState} from "react"
+import { BrowserRouter, Link, Route } from "react-router-dom";
+import portal from './portal'
 
 const Login = () => {
 
@@ -11,9 +13,7 @@ const Login = () => {
             <input type="text" placeholder="Customer ID" /> 
             <br></br>
             <input type="password" placeholder="Password" />
-
-            <div className="loginBTN">Login</div>
-
+            <Link to="/portal" className="loginBTN"> Login </Link>
         </div>
     )
 }

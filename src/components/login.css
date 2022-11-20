@@ -2,7 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
-
+    text-align: center;
 }
 h1{
     margin-bottom: 10%
@@ -20,6 +20,7 @@ h1{
     background-color: white;
     width: 30em;
     height: 25em;
+    text-align: center;
     position: relative;
     border-radius: 1em;
     box-shadow: 0 0.188em 1.550em rgb(156,156,156);
@@ -48,6 +49,8 @@ input:focus {
 
 .loginBTN{
     margin-top: 1rem;
+    text-decoration: none;
+    color: black;
     width: 40%;
     height: 3em;
     background-color: rgb(229,226,226);
