@@ -1,8 +1,8 @@
 .Portalbox{
     margin: auto;
-    margin-top: 20%;
-    height: 23rem;
-    width: 75%;
+    margin-top: 20vh;
+    height: 75vh;
+    width: 75vw;
     background-color: beige;
     justify-content: center;
     text-align:left;
@@ -10,16 +10,17 @@
     border-radius: 10px;
 }
 #header{
-    margin-bottom: 0rem;
-    margin-left: 5px;
+    margin-bottom: 0vh;
+    margin-left: 1vw;
     margin-top: 0rem;
     color: rgb(78, 77, 77);
+    text-align: left;
 }
 
 .paymentbox{
     margin: auto;
-    margin-top: 2rem;
-    height: 10rem;
+    margin-top: 10vh;
+    height: 28vh;
     width:50%;
     background-color: rgb(172, 212, 225);
     opacity: 0.5;
@@ -28,24 +29,21 @@
 
 }
 hr{
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 5px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 b{
     margin-bottom: 0;
 }
-#date {
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 45px;
-}
+
 button{
     background-color: lightblue; 
     border: none;
-    padding: 20px 32px;
-    margin-top: 3em;
-    margin-left: 12em;
+    padding: 3vw 6vh;
+    margin-top: 6vh;
+    margin-left: 25vw;
     justify-content: center;
     text-align: center;
     border-radius: 12px;
